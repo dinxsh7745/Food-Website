@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    padding-top: 70px;
+    background-color: lightgray;
+}
+
+header {
+    background-color: red;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px;
+}
+
+.logo {
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    display: inline;
+}
+
+nav {
+    float: right;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    padding: 5px;
+}
+
+nav a:hover {
+    background-color: white;
+    color: red;
+}
+
+.hero {
+    background-color: pink;
+    text-align: center;
+    padding: 30px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.box {
+    background-color: white;
+    width: 150px;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.box:hover {
+    background-color: lightgray;
+}
+
+.dishes {
+    text-align: center;
+    padding: 20px;
+}
+
+.dish {
+    display: inline-block;
+    width: 140px;
+    margin: 10px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.dish:hover {
+    background-color: lightgray;
+}
+
+.dish img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.centerbox {
+    background-color: white;
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+input, textarea {
+    width: 90%;
+    margin: 10px;
+    padding: 8px;
+}
+
+button {
+    background-color: red;
+    color: white;
+    padding: 8px 20px;
+    border: none;
+}
